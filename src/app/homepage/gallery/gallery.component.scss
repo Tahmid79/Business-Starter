@@ -1,10 +1,42 @@
-.gallery{
-  height: 40vw ;
-  width: 100% ;
-  //background-image: url("/assets/images/home/tiles.svg");
+.wallpaper{
+  background-image: url("/assets/images/home/tiles.svg") ;
+  background-size: cover ;
 }
 
-.gallery.h1{
-  color: white ;
+.gallery-medium{
+  height: 45em ;
+  width: 100% ;
+}
+
+.gallery-medium h1{
   z-index: 2;
+  font-size: 7em ;
+}
+
+
+.gallery-mobile{
+  height: 150vw ;
+  width: 100% ;
+}
+
+.gallery-mobile h1{
+  z-index: 2;
+  font-size: 3em ;
+}
+
+.white-color{
+  color: white ;
+}
+
+.grey-color{
+  color: grey ;
+}
+
+.padding-left{
+  padding-left: 10% ;
+  padding-right: 10% ;
+}
+
+.center-align{
+  text-align: center ;
 }

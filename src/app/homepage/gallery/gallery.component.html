@@ -1,3 +1,19 @@
-<div>
-    <h1>Grow your business</h1>
+<div fxLayout="column" fxLayoutAlign="start center" class="wallpaper"
+     ngClass.gt-sm="gallery-medium"
+     ngClass.lt-sm="gallery-mobile">
+
+  <h1 class="white-color center-align"
+      fxFlexOffset.gt-sm="20%"
+      fxFlexOffset.lt-sm="50%">
+    Grow your
+    <span fxHide.gt-sm style="display: block; margin: 20px" ></span>
+    business
+  </h1>
+
+  <h2 class="grey-color center-align"
+     fxFlexOffset.gt-sm="5%"
+     fxFlexOffset.lt-sm="5%">
+    {{businessBoost}}
+  </h2>
+
 </div>

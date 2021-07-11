@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
   tiles = '/assets/images/home/tiles.svg' ;
+  businessBoost = 'Give your business a boost with a beautifully crafted homepage.' ;
   constructor() { }
 
   ngOnInit(): void {
