@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomepageRoutingModule } from './homepage-routing.module';
 import { HomeDefaultComponent } from './home-default/home-default.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import {SharedModule} from '../shared/shared.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({

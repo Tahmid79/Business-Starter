@@ -15,7 +15,7 @@
 
 
 .gallery-mobile{
-  height: 150vw ;
+  height: 35em ;
   width: 100% ;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .grey-color{
-  color: grey ;
+  color: #acacac;
 }
 
 .padding-left{
@@ -40,3 +40,19 @@
 .center-align{
   text-align: center ;
 }
+
+.padding-horizontal{
+  padding: 10px ;
+}
+
+.learn-button{
+  height: 60px ;
+  width: 160px ;
+  padding: 10px ;
+  background-color: white ;
+  border-radius: 0;
+  margin-top: 20px ;
+  font-size: 16px ;
+}
+
+
