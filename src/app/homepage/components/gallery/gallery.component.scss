@@ -1,32 +1,32 @@
 .wallpaper{
   background-image: url("/assets/images/home/tiles.svg") ;
   background-size: cover ;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+  justify-content: center;
+
+  height: 40em ;
+
 }
 
-.gallery-medium{
-  height: 45em ;
-  width: 100% ;
+.title-normal{
+  font-size: 6em ;
+  padding-bottom: 0.5em ;
 }
 
-.gallery-medium h1{
-  z-index: 2;
-  font-size: 7em ;
+.wallpaper .title-mobile{
+  font-size: 4em ;
+  padding-bottom: 0.5em ;
 }
 
-
-.gallery-mobile{
-  height: 35em ;
-  width: 100% ;
+.sub-title{
+  font-size: 1.8em ;
 }
 
-.gallery-mobile h1{
-  z-index: 2;
-  font-size: 3em ;
-}
-
-.padding-left{
-  padding-left: 10% ;
-  padding-right: 10% ;
+.sub-title-mobile{
+  font-size: 1.3em ;
 }
 
 .center-align{

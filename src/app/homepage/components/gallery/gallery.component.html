@@ -1,16 +1,15 @@
-<div fxLayout="column" fxLayoutAlign="start center" class="wallpaper"
-     ngClass.gt-sm="gallery-medium"
-     ngClass.lt-sm="gallery-mobile">
+<div class="wallpaper">
 
-  <h1 class="white-color center-align"
-      fxFlexOffset.gt-sm="15%"
-      fxFlexOffset.lt-md="30%">
+  <h1 class="title-normal white-color center-align"
+    ngClass.lt-sm="title-mobile">
     Grow your
-    <span fxHide.gt-sm style="display: block; margin: 20px" ></span>
+    <span fxHide.gt-sm style="display: block; padding: 20px" ></span>
     business
   </h1>
 
-  <h2 class="grey-color center-align padding-horizontal"  fxFlexOffset="5%">
+  <h2 class="grey-color center-align padding-horizontal"
+    ngClass.gt-sm="sub-title"
+    ngClass.lt-sm="sub-title-mobile">
     {{businessBoost}}
   </h2>
 
