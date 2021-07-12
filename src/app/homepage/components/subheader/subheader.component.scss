@@ -1,0 +1,36 @@
+.subheader{
+  height: 21em ;
+  width: 100% ;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+  justify-content: center;
+
+}
+
+.subheader *{
+  text-align: center ;
+}
+
+.text1{
+
+}
+
+
+.text2{
+  font-size: 3em ;
+  padding-left: 15% ;
+  padding-right: 15% ;
+  line-height: 1.2 ;
+}
+
+.text2-mobile{
+  font-size: 2em ;
+  padding-left: 12% ;
+  padding-right: 12% ;
+  line-height: 1.6 ;
+}
+
+
+

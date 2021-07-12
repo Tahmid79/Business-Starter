@@ -5,12 +5,14 @@ import { HomepageRoutingModule } from './homepage-routing.module';
 import { HomeDefaultComponent } from './components/home-default/home-default.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { SharedModule } from '../shared/shared.module';
+import { SubheaderComponent } from './components/subheader/subheader.component';
 
 
 @NgModule({
   declarations: [
     HomeDefaultComponent,
-    GalleryComponent
+    GalleryComponent,
+    SubheaderComponent
   ],
   imports: [
     CommonModule,
