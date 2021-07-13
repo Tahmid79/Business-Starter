@@ -1,0 +1,71 @@
+.divider{
+  width: 90% ;
+  margin-left: 5% ;
+  margin-bottom: 5% ;
+}
+
+.first-description{
+  height: 33em ;
+}
+
+.first-description-mobile{
+  height: 50em ;
+}
+
+.description-container-one{
+  margin-top: 5%;
+}
+
+.first-description-mobile .description-container-one-mobile{
+  text-align: center ;
+}
+
+
+.image-fit{
+  height: 100% ;
+  background-image: url("/assets/images/home/moon.svg") ;
+  background-size: cover ;
+}
+
+.image-fit img{
+  height: 100% ;
+  width: 100% ;
+}
+
+
+
+.image-fit2{
+  height: 100% ;
+  background-image: url("/assets/images/home/moon2.svg") ;
+  background-size: cover ;
+}
+
+.image-fit2 img{
+  height: 100% ;
+  width: 100% ;
+}
+
+.second-description{
+  margin-top: 6em ;
+  height: 33em ;
+}
+
+.second-description-mobile{
+  margin-top: 8em ;
+  height: 50em ;
+}
+
+
+.description-container-two{
+  margin-top: 5% ;
+}
+
+.description-container-two-mobile{
+  margin-top: 5% ;
+}
+
+.description-container-two-mobile *{
+  text-align: center ;
+}
+
+

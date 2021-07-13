@@ -6,13 +6,15 @@ import { HomeDefaultComponent } from './components/home-default/home-default.com
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { SharedModule } from '../shared/shared.module';
 import { SubheaderComponent } from './components/subheader/subheader.component';
+import { DescriptionComponent } from './components/description/description.component';
 
 
 @NgModule({
   declarations: [
     HomeDefaultComponent,
     GalleryComponent,
-    SubheaderComponent
+    SubheaderComponent,
+    DescriptionComponent
   ],
   imports: [
     CommonModule,

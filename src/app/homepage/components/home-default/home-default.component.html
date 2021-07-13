@@ -1,2 +1,41 @@
 <app-gallery></app-gallery>
+
 <app-subheader></app-subheader>
+
+<mat-divider class="divider" ></mat-divider>
+
+
+<div ngClass.gt-xs="first-description" ngClass.xs="first-description-mobile"
+     fxLayout.gt-xs="row" fxLayout.xs="column"  fxLayoutAlign="start">
+
+    <img [src]="description[0].image" ngStyle.xs="margin-top:25px" fxHide.gt-xs  />
+
+    <div class="description-container-one"
+         fxFlexOffset.gt-xs="5%" fxFlex.gt-xs="35%"
+         ngClass.xs="description-container-one-mobile" >
+      <app-description [info]="description[0]"></app-description>
+    </div>
+
+    <div class="image-fit" fxFlex.gt-xs="55%" fxHide.xs >
+    </div>
+
+</div>
+
+
+
+
+<div ngClass.gt-xs="second-description"  ngClass.xs="second-description-mobile"
+     fxLayout.gt-xs="row" fxLayout.xs="column"  fxLayoutAlign="start">
+
+  <div class="image-fit2" fxFlex.gt-xs="60%" fxFlexOffset.gt-xs="4.3%">
+  </div>
+
+  <div ngClass.gt-xs="description-container-two" ngClass.xs="description-container-two-mobile"
+       fxFlexOffset.gt-xs="3.5%" fxFlex.gt-xs="35%">
+    <app-description  [info]="description[1]"></app-description>
+  </div>
+
+</div>
+
+
+<div style="height: 100px;"></div>
