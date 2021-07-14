@@ -1,0 +1,20 @@
+<div ngClass.gt-xs="title-container"  ngClass.xs="title-container-mobile" >
+  <h3 class="grey-color header">
+    {{about}}
+  </h3>
+
+  <h1 class="title">
+    {{companyNews}}
+  </h1>
+</div>
+
+
+<div ngClass.gt-xs="news-container" ngClass.xs="news-container-mobile"
+  fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="space-between" fxLayout.xs="column" >
+  <app-news *ngFor="let item of news"  [newsInfo] ="item"
+            fxFlex.gt-xs="30%" >
+  </app-news>
+</div>
+
+
+

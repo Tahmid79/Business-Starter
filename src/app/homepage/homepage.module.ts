@@ -7,6 +7,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { SharedModule } from '../shared/shared.module';
 import { SubheaderComponent } from './components/subheader/subheader.component';
 import { DescriptionComponent } from './components/description/description.component';
+import { NewsContainerComponent } from './components/news-container/news-container.component';
+import { NewsComponent } from './components/news/news.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { DescriptionComponent } from './components/description/description.compo
     HomeDefaultComponent,
     GalleryComponent,
     SubheaderComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    NewsContainerComponent,
+    NewsComponent
   ],
   imports: [
     CommonModule,
